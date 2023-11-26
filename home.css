@@ -1,0 +1,86 @@
+/* Reset some default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+/* Banner styling */
+.banner {
+  background-image: url("banner.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.banner h2 {
+  font-size: 36px;
+}
+
+/* Section styling */
+.section {
+  padding: 20px;
+}
+
+/* Listing card styling */
+.listing {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: calc(50% - 20px); /* Two columns with margin */
+}
+
+.listing img {
+  max-width: 100%;
+  height: auto;
+}
+
+.listing h3 {
+  font-size: 18px;
+}
+
+.listing p {
+  margin: 5px 0;
+}
+
+#map {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+}
+
+#Address {
+  margin: 10px;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.html" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Real Estate Website</title>
+    <script src="map.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD32hfp2oSa4iovvNxC3Pf8cSJ0B-TwfhE&callback=initMap"
+      x
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Real Estate Website</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="rents.html">Rentals</a>
+        <a href="sales.html">Sales</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="Map.html">Map</a>
+      </nav>
+    </header>
+    <div id="Address">
+      <label for="addressInput">Enter Address:</label>
+      <input type="text" id="addressInput" />
+      <input
+        type="text"
+        id="markerDescription"
+        placeholder="Enter Marker Description"
+      />
+      <button onclick="geocodeAddress()">Add Marker</button>
+    </div>
+    <div id="map"></div>
+  </body>
+</html>
