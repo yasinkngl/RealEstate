@@ -1,4 +1,4 @@
-// Backend (Node.js + Express + MongoDB example)
+// Backend (Node.js + Express + MongoDB)
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
