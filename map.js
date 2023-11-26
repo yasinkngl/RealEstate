@@ -1,5 +1,3 @@
-// map.js
-
 var map;
 var markers = []; // Store markers in an array
 
@@ -97,7 +95,7 @@ async function deleteMarker(markerId) {
 
   if (markerToDeleteIndex !== -1) {
     // Remove the marker from the map
-    markers[markerToDeleteIndex+1].marker.setMap(null);
+    markers[markerToDeleteIndex + 1].marker.setMap(null);
 
     // Send a request to delete the marker from the server
     try {
