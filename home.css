@@ -1,4 +1,3 @@
-/* Reset some default styles for better consistency */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Header styling */
 header {
   background-color: #333;
   color: #fff;
@@ -31,7 +29,6 @@ header a {
   margin: 0 20px;
 }
 
-/* Banner styling */
 .banner {
   background-image: url("banner.jpg");
   background-size: cover;
@@ -44,18 +41,16 @@ header a {
   font-size: 36px;
 }
 
-/* Section styling */
 .section {
   padding: 20px;
 }
 
-/* Listing card styling */
 .listing {
   border: 1px solid #ccc;
   margin: 10px;
   padding: 10px;
   display: inline-block;
-  width: calc(50% - 20px); /* Two columns with margin */
+  width: calc(50% - 20px);
 }
 
 .listing img {
