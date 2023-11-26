@@ -53,8 +53,6 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
-// Define a route to handle marker deletion by ID
-// Sample server-side code to handle deletion
 app.delete("/api/markers/:markerId", async (req, res) => {
   const { markerId } = req.params;
   try {
